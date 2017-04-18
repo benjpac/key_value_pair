@@ -97,6 +97,9 @@ class Fixnum
     # end
     full_number= number_as_word.join("")
     puts(full_number)
+    if full_number.slice(-1) == " "
+      full_number = full_number[0...-1]
+    end
     full_number
   end
 end
