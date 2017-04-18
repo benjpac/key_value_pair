@@ -49,7 +49,7 @@ describe('Fixnum#numbers_to_words') do
     expect(100.numbers_to_words()).to eq("hundred")
   end
   it("returns word for hundreds") do
-    expect(500.numbers_to_words()).to eq("five hundred")
+    expect(500.numbers_to_words()).to eq("five hundred ")
   end
   it("returns word for hundreds") do
     expect(745.numbers_to_words()).to eq("seven hundred fourty five")
